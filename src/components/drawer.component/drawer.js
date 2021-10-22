@@ -13,7 +13,21 @@ export default class Drawer extends Component{
     return(
       <div className={drawerClasses}>
         {/* <h1>Hello, I'm sliding!</h1> */}
-        <SearchWindow/>
+        <SearchWindow
+          closedrawer={this.props.closedrawer}
+          hiddenList={this.props.hiddenList}
+          selectCity={this.props.selectCity}
+          count={this.props.count}
+          counter={this.props.counter}
+          adultCount={this.props.adultCount}
+          childCount={this.props.childCount}
+          city={this.props.city}
+          country={this.props.country}
+          setHiddenList={this.props.setHiddenList}  
+          filterStays={this.props.filterStays}
+          countStay={this.props.countStay}
+          stayArr={this.props.stayArr}
+          />
       </div>
     )
   }

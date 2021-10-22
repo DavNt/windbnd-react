@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import data from '../resources/database/stays.json';
 import Staric from '../resources/icons/ic_star.png';
 
 export default class Places extends Component{
@@ -7,24 +6,24 @@ export default class Places extends Component{
     super(props);
 
     this.state = {
-      data: data,
+      
     };
   }
   render(){
-    const {data} = this.state;
+    // const {data} = this.state;
     return(
       <>
       <div className="container">
         <div className="row my-5 justify-content-between">
           <div className="col">
-            <h4>Stays in Finland</h4>
+            <h4>Stays in {this.props.country}</h4>
           </div>
           <div className="col-4">
-            <p className="text-end">12+ stays</p>
+            <p className="text-end">{`${this.props.countStay}+ stays`}</p>
           </div>
         </div>
         <div className="row justify-content-center">
-          {data.map((place, index) =>{
+          {this.props.stayArr.map((place, index) =>{
             return(
               <div className="col-md-4 mb-5">
                 <img 

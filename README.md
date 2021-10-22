@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://windbnb-dvn.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -37,22 +37,30 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](./src/resources/screenshot/screenshot-1.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
+
+  <a href="https://windbnb-dvn.netlify.app/">
+    Demo
+  </a>
+
 - What was your experience?
-- What have you learned/improved?
+  
+  Using React and Bootstrap components 
+
 - Your wisdom? :)
+
+  Experience is gained through doing something.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [CSS](https://www.w3schools.com/css/default.asp)
 
 ## Features
 
@@ -87,6 +95,5 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@DavNt](https://github.com/DavNt)
+- Twitter [@DavNtM](https://twitter.com/DavNtM)
