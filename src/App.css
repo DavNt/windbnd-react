@@ -4,11 +4,12 @@
   font-family: 'Monserrat', sans-serif;
 }
 .search_area{
-  border: 1px solid #000;
+  border: 1px solid rgb(221, 219, 219);
   border-radius: 10px;
   background-color: #fff;
   padding: 10px;
   height: 45px;
+  color: #aaa8a8;
 }
 .search_area span{
   margin-left: 10px;
@@ -55,12 +56,14 @@
 .drawer-contents{
   margin: 10px;
   display: flex;
+}
+.draw-things{
+  display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
 .search-container{
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 .location-item-contain{
   display: flex;
@@ -80,7 +83,8 @@
 }
 .search-options-lst{
   display: flex;
-  /* flex-direction: row; */
+  flex-direction: row;
+  /* justify-content: space-around; */
   padding: 10px;
 }
 .count-btn{
@@ -97,6 +101,30 @@
   display: flex;
   flex-direction: column;
 }
+/* .btn_search_div{
+  
+  align-items: center;
+} */
+.search-btn{
+  width: 127px;
+  height: 48px;
+  background: #EB5757;
+  color: #fff;
+  border: none;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  margin: auto;
+}
+.txt-search{
+  width: 300px;
+}
+.search-opt{
+  align-self: start;
+}
+.guest-light-txt{
+  color: #aaa8a8;
+  margin-top: -5px;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .place_img{
@@ -112,8 +140,18 @@
   .head_item{
     align-self: end;
   }
+  .drawer-contents{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .search-container{
     flex-direction: column;
+    justify-content: center;
+  }
+  .search-location, .search-guest{
+    margin-left: 0px;
   }
 } 
 
@@ -129,8 +167,18 @@
   .head_contain{
     flex-direction: row;
   }
+  .drawer-contents{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .search-container{
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .search-location, .search-guest{
+    margin-left: 0px;
   }
 } 
 
@@ -146,8 +194,23 @@
   .details-p{
     width: 350px;
   }
+  .drawer-contents{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .draw-things{
+    justify-content: space-around;
+  }
   .search-container{
     flex-direction: row;
+    justify-content: space-around;
+  }
+  .search-location{
+    margin-left: 0px;
+  }
+  .search-guest{
+    margin-left: 340px;
   }
 } 
 

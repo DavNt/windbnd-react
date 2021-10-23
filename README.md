@@ -37,7 +37,17 @@
 
 ## Overview
 
-![screenshot](./src/resources/screenshot/screenshot-1.png)
+_DesktopView_
+
+![screenshot](./src/resources/screenshot/screenshot-1.png?raw=true)
+
+![screenshot](./src/resources/screenshot/screenshot-2.png?raw=true)
+
+_PhoneView_
+
+![screenshot](./src/resources/screenshot/screenshot-3.png?raw=true)
+
+![screenshot](./src/resources/screenshot/screenshot-4.png?raw=true)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 

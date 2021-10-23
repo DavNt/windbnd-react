@@ -3,9 +3,9 @@ import stays from '../resources/database/stays.json';
 import LocationItem from "./locitem.component";
 
 export default function LocationList(props){
-  const style = {
-    display: 'none'
-  }
+  // const style = {
+  //   display: 'none'
+  // }
 
   const cities = new Map();
 
@@ -18,7 +18,7 @@ export default function LocationList(props){
   return(
     <>
     <div className="location-item-contain"
-      style={props.hiddenLoct?style:{}}
+      // style={props.hiddenLoct?style:{}}
     >
       {Array.from(cities.keys()).map(city=>{
         return(
