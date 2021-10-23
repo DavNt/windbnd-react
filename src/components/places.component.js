@@ -25,7 +25,7 @@ export default class Places extends Component{
         <div className="row justify-content-center">
           {this.props.stayArr.map((place, index) =>{
             return(
-              <div className="col-md-4 mb-5">
+              <div className="col-lg-4 mb-5">
                 <img 
                   className="img-responsive place_img"
                   src={place.photo}
